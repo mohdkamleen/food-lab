@@ -1,0 +1,15 @@
+.carousel{
+    background: url(../../../public/banner-image.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    min-height: 1000px;
+    height: calc(100vh - 126px); 
+    opacity: 0.6;
+}
+
+.carousel-caption h1{ 
+    font: normal normal bold 89px/133px Poppins; 
+    color: #000000; 
+}
