@@ -1,15 +1,32 @@
-.carousel{
-    background: url(../../../public/banner-image.png) ;
+.carousel {
+    background: url(../../../public/banner-image.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
-    min-height: 1000px;
-    height: calc(100vh - 126px); 
+    height: calc(100vh - 126px);
+    max-height: 1200px;
     opacity: 0.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5%;
 }
 
-.carousel-caption h1{ 
-    font: normal normal bold 89px/133px Poppins; 
-    color: #000000; 
+.banner-title {
+    font: normal normal bold 89px/133px Poppins;
+    color: #000000;
+}
+
+.banner-desc {
+    font: normal normal 600 30px/46px Poppins;
+    color: #000000;
+}
+
+.banner-btn {
+    width: 300px;
+    height: 90px;
+    background: #278233 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    font: normal normal 300 33px/50px Poppins !important; 
 }
